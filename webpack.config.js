@@ -36,6 +36,9 @@ module.exports = [
                 }
             ]
         },
+        resolve: {
+            extensions: ['.js', '.jsx', '.ts', '.tsx']
+        },
         output: {
             path: __dirname + '/dist',
             filename: 'app.js'

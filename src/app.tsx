@@ -1,8 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import Game from "./Game";
 
-const App = () => {
-    return <div>Hello React!</div>;
-};
+function App(props: any) {
+    return <Game />;
+}
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
